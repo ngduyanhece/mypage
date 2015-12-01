@@ -1,0 +1,49 @@
+/**********************************************
+Big screen table 
+**********************************************/
+@media only screen and (max-width: 1200px){
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  
+}
+
+/**********************************************
+Small tablet 768px to 1024px 
+**********************************************/
+@media only screen and (max-width: 1023px) { 
+ 
+}
+
+/**********************************************
+Small phone 481px to 767px 
+**********************************************/
+@media only screen and (max-width: 767px){ 
+  body {
+    font-size: 16px;
+  }
+  .col {
+    width: 100%;
+  }
+  .row {
+    margin-bottom: 20px;
+  }
+  nav {
+    display: none;
+  }
+  nav {
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+  nav li {
+    display: block;
+    border: 0;
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  .mobile-nav-icon {
+    display: block;
+  }
+}

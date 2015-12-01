@@ -1,0 +1,224 @@
+/**********************************************
+The Basic Setup
+***********************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/**********************************************
+The Reuse Components
+***********************************************/
+html, body {
+  background-color: #fff;
+  color: #4b4a4a;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+section, footer {
+  text-align: center
+}
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-size: 2em;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+}
+h1 {
+  color: #fff;
+}
+h2 {
+  font-size: 1.6em;
+  word-spacing: 3px;
+}
+h2::after {
+  display: block;
+  content: "";
+  margin: 20px auto;
+  width: 100px;
+  height: 2px;
+  background-color: #e67e22
+}
+h3 {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+p {
+  font-size: 0.9em;
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/**********************************************
+The Section Icon
+***********************************************/
+.icon {
+  color: #e67e22;
+  font-size: 2em;
+}
+/**********************************************
+The Header Style 
+***********************************************/
+header {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../img/duyanh.JPG);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+/**********************************************
+The Button Style 
+***********************************************/
+.btn{
+  display: inline-block;
+  font-weight: 300;
+  text-decoration: none;
+  border: 1px solid #e67e22;
+  color: #e67e22;
+  border-radius: 200px;
+  padding: 10px 30px;
+  transition: background-color, color 0.2s;
+}
+.btn:hover {
+  border: 1px solid #cf6d17;
+  background-color: #cf6d17;
+  color: #fff;
+}
+/**********************************************
+The Link Style
+***********************************************/
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.2s;
+
+}
+
+a:hover,
+a:active {
+  border-bottom: 3px solid #cf6d17;
+}
+/**********************************************
+The Name Style
+***********************************************/
+.name {
+  float: left;
+  font-weight: 300;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-left: 10px;
+  border: none;
+  color: #e67e22;
+  font-size: 1.4em;
+}
+.first-name {
+  color: #e67e22;
+  font-weight: 500;
+}
+/**********************************************
+The Navigation Style
+***********************************************/
+nav {
+  float: right;
+  font-weight: 300;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin-top: 60px;
+  
+  
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/**********************************************
+The Mobile Navi
+***********************************************/
+.mobile-nav-icon {
+  float: right;
+  cursor: pointer;
+  margin-right: 50px;
+  margin-top: 50px;
+  display: none;
+}
+.mobile-nav-icon i {
+  font-size: 2em;
+  color: #fff;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 2px 2px #cbcbcb;
+  z-index: 9999;
+}
+.stickly div {
+  color: #e67e22;
+}
+.sticky a, .sticky i {
+  color: #000;
+}
+/**********************************************
+The Section Abilities
+***********************************************/
+.section-abilities p {
+  text-align: center;
+  line-height: 1.6;
+}
+.abilities-box {
+  width: 30%;
+  margin: 2%;
+}
+/**********************************************
+The Section Profile
+***********************************************/
+.edu-logo {
+  width: 75px;
+  height: auto;
+  border-radius: 25%;
+  border: 2px solid #e67e22;
+}
+.section-profile p {
+  padding-top: 20px;
+  text-align: left;
+}
+.visit-profile a {
+  color: #e67e22;
+}
+/**********************************************
+The Footer Profile
+***********************************************/
+footer {
+  background-color: #414040;
+  color: #fff;
+}
+.city {
+  color: #e67e22;
+}
+
+.social-icon {
+  font-size: 3em;
+  padding: 20px;
+}
